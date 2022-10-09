@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Timetable</title>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<style>
+        table {
+			border:0px solid #b3adad;
+		}
+		table th {
+			border:1px solid #b3adad;
+			background: #f0f0f0;
+			color: #313030;
+		}
+		table td {
+			border:1px solid #b3adad;
+			text-align:center;
+			background: #ffffff;
+			color: #313030;
+		}
+        #ani{
+            background-color: aqua;
+            border-color:red;
+        }
+        #web{
+            background-color: rgb(255, 153, 0);
+        }
+        #cha{
+            background-color: blueviolet;
+        }
+        #dat{
+            background-color: peru;
+        }
+        #aip{
+            background-color: greenyellow;
+        }
+        #sna{
+            background-color: yellow;
+        }
+</style>
+</head>
+<body>
+	<div class="menu">
+		<nav>
+			<ul>
+				<li><a href="index.html"><i class="bi bi-house-fill"></i> Home</a></li>
+				<li><a href="timetable.html"><i class="bi bi-calendar-check-fill"></i> Timetable</a></li>
+				<li><a href="aboutvietnamwiki.html"><i class="bi bi-globe"></i> My country</a></li>
+				<li><a href="abouthanoi.html"><i class="bi bi-airplane-fill"></i> My city</a></li>
+				<li><a href="myfavorite.html"><i class="bi bi-star-fill"></i> Favorite</a></li>
+			</ul>
+		</nav>
+	</div>
+		
+	<div class= "container-fluid">
+		<div class= "row">
+		   <div class ="col-sm-3">
+			   <a href="index.html"><h3><i class="bi bi-backspace-fill"></i></i> Back to homepage</h3></a>
+		   </div>
+		   <div class ="col-sm-9 bg-success">
+			  <h3 style="color:white;"> <i class="bi bi-calendar-check-fill"></i> My Timetable</h3>
+		   </div>
+		</div>
+
+		<div class="row">
+			<div class ="col-sm-12">
+				<cite> Please note that for some reason, the subject name has been changed</cite>
+	<table>
+		<thead>
+			<tr>
+				<th>&nbsp; &nbsp;&nbsp;</th>
+				<th>Mon</th>
+				<th>&nbsp;Tue&nbsp;</th>
+				<th>Wed</th>
+				<th>Thu&nbsp;</th>
+				<th>&nbsp;Fri&nbsp;&nbsp;</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>9&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;10</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;11</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;12</td>
+				<td>&nbsp;</td>
+				<td id="ani">ani&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td id="aip" rowspan="3">aip&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;1&nbsp;</td>
+				<td>&nbsp;</td>
+				<td id="web" rowspan="3">web</td>
+				<td>&nbsp;</td>
+				<td id="ani" rowspan="2">ani&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;2</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;3</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td id="dat" rowspan="3">&nbsp;dat</td>
+				<td id="sna" rowspan="3">sna&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;4</td>
+				<td>&nbsp;</td>
+				<td id="cha">cha&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;5</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+				<td>&nbsp;</td>
+			</tr>
+		</tbody>
+	</table>
+			</div>
+		</div>
+    </body>
+</html>

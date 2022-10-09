@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(224, 243, 240);
+  }
+  
+  .menu{
+    background-position:center;
+  }
+  nav {
+    background-color: rgb(69, 218, 195);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  aside {
+    background-color: rgb(253, 237, 201);
+  }
+  footer{
+    background-color: rgb(206, 241, 255);
+  }
+  h2 {
+    margin-left: 05px;
+    border: 3px solid red;
+  }
+  ul {
+    list-style: circle
+  }
+
+  nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 50px;
+  }
+
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
